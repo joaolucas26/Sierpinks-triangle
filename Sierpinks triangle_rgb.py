@@ -14,9 +14,12 @@ def distanc(p1, p2):
 #creating canvas
 colormode(255)
 screen = Screen()
-screen.setup(1000,1000)
+screen.setup(1050,1050)
 screen.title('Sierpinks triangle')
 screen.bgcolor((0,0,0))
+
+
+
 
 
 #creating the triangle
@@ -82,7 +85,7 @@ for i in range(25000):
     print ( fg('white')+ str(i) + " / 25000 ", fg('red') + str(r), fg('green') + str(g), fg('blue') + str(b))
 
     dot_turtle.pendown()
-    dot_turtle.dot(10, (r,g,b))
+    dot_turtle.dot(3.5, (r,g,b))
     dot_turtle.clone()
 
 
