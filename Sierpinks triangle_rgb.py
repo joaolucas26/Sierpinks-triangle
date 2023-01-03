@@ -2,7 +2,7 @@ from turtle import *
 import random
 from math import sqrt
 import time
-from colored import fg
+#from colored import fg
 
 start = time.process_time()
 
@@ -82,7 +82,8 @@ for i in range(25000):
     g = int(abs(g))
     b = int(abs(b))
 
-    print ( fg('white')+ str(i) + " / 25000 ", fg('red') + str(r), fg('green') + str(g), fg('blue') + str(b))
+    print ( ('white')+ str(i) + " / 25000 ", ('red') + str(r), ('green') + str(g), ('blue') + str(b))
+    #print ( fg('white')+ str(i) + " / 25000 ", fg('red') + str(r), fg('green') + str(g), fg('blue') + str(b))
 
     dot_turtle.pendown()
     dot_turtle.dot(3.5, (r,g,b))
