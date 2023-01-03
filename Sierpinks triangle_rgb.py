@@ -83,6 +83,8 @@ for i in range(25000):
     b = int(abs(b))
 
     print ( ('white')+ str(i) + " / 25000 ", ('red') + str(r), ('green') + str(g), ('blue') + str(b))
+
+    #if you have colored lib installed
     #print ( fg('white')+ str(i) + " / 25000 ", fg('red') + str(r), fg('green') + str(g), fg('blue') + str(b))
 
     dot_turtle.pendown()
